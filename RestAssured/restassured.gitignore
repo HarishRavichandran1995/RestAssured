@@ -1,0 +1,15 @@
+# Build output
+/target/
+/bin/
+
+# Eclipse metadata
+.project
+.classpath
+.settings/
+
+# OS / IDE
+.idea/
+*.iml
+.vscode/
+.DS_Store
+Thumbs.db
