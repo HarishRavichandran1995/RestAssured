@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-21T16:09:19 IST" name="Default suite" finished-at="2025-08-21T16:09:19 IST" duration-ms="50">
+  <suite started-at="2025-08-23T11:59:50 IST" name="Default suite" finished-at="2025-08-23T11:59:52 IST" duration-ms="1948">
     <groups>
     </groups>
-    <test started-at="2025-08-21T16:09:19 IST" name="Default test" finished-at="2025-08-21T16:09:19 IST" duration-ms="50">
-      <class name="non_bdd_style.B3_Serilization">
-        <test-method signature="serilization()[pri:0, instance:non_bdd_style.B3_Serilization@6069db50]" started-at="2025-08-21T16:09:19 IST" name="serilization" finished-at="2025-08-21T16:09:19 IST" duration-ms="7" status="PASS">
+    <test started-at="2025-08-23T11:59:50 IST" name="Default test" finished-at="2025-08-23T11:59:52 IST" duration-ms="1948">
+      <class name="non_bdd_style.B4_JsonSimpleDependency">
+        <test-method signature="serilization()[pri:0, instance:non_bdd_style.B4_JsonSimpleDependency@77fbd92c]" started-at="2025-08-23T11:59:50 IST" name="serilization" finished-at="2025-08-23T11:59:52 IST" duration-ms="1893" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- serilization -->
-      </class> <!-- non_bdd_style.B3_Serilization -->
+      </class> <!-- non_bdd_style.B4_JsonSimpleDependency -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
