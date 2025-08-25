@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="non_bdd_style.B4_JsonSimpleDependency">
+      <class name="A2_JSONSCHEMA.RestAssuredJsonSchemaValidation">
         <methods>
-          <include name="serilization"/>
+          <include name="ValidationUsingJsonSchemaInClassPath"/>
         </methods>
-      </class> <!-- non_bdd_style.B4_JsonSimpleDependency -->
+      </class> <!-- A2_JSONSCHEMA.RestAssuredJsonSchemaValidation -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
