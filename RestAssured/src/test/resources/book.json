@@ -1,0 +1,163 @@
+{
+  "collectionName": "Weekend Movie Binge",
+  "owner": "Harish",
+  "createdYear": 2023,
+  "active": true,
+  "movies": [
+    {
+      "title": "Inception",
+      "director": "Christopher Nolan",
+      "genre": "Science Fiction",
+      "releaseYear": 2010,
+      "availableFormats": [
+        "Blu-ray",
+        "DVD",
+        "Digital"
+      ]
+    },
+    {
+      "title": "The Dark Knight",
+      "director": "Christopher Nolan",
+      "genre": "Action",
+      "releaseYear": 2008,
+      "availableFormats": [
+        "Blu-ray",
+        "DVD",
+        "Digital"
+      ]
+    },
+    {
+      "title": "Interstellar",
+      "director": "Christopher Nolan",
+      "genre": "Adventure",
+      "releaseYear": 2014,
+      "availableFormats": [
+        "Blu-ray",
+        "DVD",
+        "Digital",
+        "IMAX"
+      ]
+    },
+    {
+      "title": "Spirited Away",
+      "director": "Hayao Miyazaki",
+      "genre": "Animation",
+      "releaseYear": 2001,
+      "availableFormats": [
+        "DVD",
+        "Digital"
+      ]
+    },
+    {
+      "title": "Parasite",
+      "director": "Bong Joon-ho",
+      "genre": "Thriller",
+      "releaseYear": 2019,
+      "availableFormats": [
+        "Blu-ray",
+        "Digital"
+      ]
+    },
+    {
+      "title": "The Godfather",
+      "director": "Francis Ford Coppola",
+      "genre": "Crime",
+      "releaseYear": 1972,
+      "availableFormats": [
+        "Blu-ray",
+        "DVD",
+        "Digital"
+      ]
+    },
+    {
+      "title": "Pulp Fiction",
+      "director": "Quentin Tarantino",
+      "genre": "Crime",
+      "releaseYear": 1994,
+      "availableFormats": [
+        "Blu-ray",
+        "DVD",
+        "Digital"
+      ]
+    },
+    {
+      "title": "The Matrix",
+      "director": "Lana & Lilly Wachowski",
+      "genre": "Science Fiction",
+      "releaseYear": 1999,
+      "availableFormats": [
+        "Blu-ray",
+        "DVD",
+        "Digital",
+        "4K UHD"
+      ]
+    },
+    {
+      "title": "The Shawshank Redemption",
+      "director": "Frank Darabont",
+      "genre": "Drama",
+      "releaseYear": 1994,
+      "availableFormats": [
+        "Blu-ray",
+        "DVD",
+        "Digital"
+      ]
+    },
+    {
+      "title": "Forrest Gump",
+      "director": "Robert Zemeckis",
+      "genre": "Drama",
+      "releaseYear": 1994,
+      "availableFormats": [
+        "Blu-ray",
+        "DVD",
+        "Digital"
+      ]
+    },
+    {
+      "title": "Fight Club",
+      "director": "David Fincher",
+      "genre": "Drama",
+      "releaseYear": 1999,
+      "availableFormats": [
+        "Blu-ray",
+        "DVD",
+        "Digital"
+      ]
+    },
+    {
+      "title": "Avatar",
+      "director": "James Cameron",
+      "genre": "Science Fiction",
+      "releaseYear": 2009,
+      "availableFormats": [
+        "Blu-ray",
+        "3D Blu-ray",
+        "Digital"
+      ]
+    },
+    {
+      "title": "Coco",
+      "director": "Lee Unkrich",
+      "genre": "Animation",
+      "releaseYear": 2017,
+      "availableFormats": [
+        "Blu-ray",
+        "DVD",
+        "Digital"
+      ]
+    },
+    {
+      "title": "Mad Max: Fury Road",
+      "director": "George Miller",
+      "genre": "Action",
+      "releaseYear": 2015,
+      "availableFormats": [
+        "Blu-ray",
+        "DVD",
+        "Digital",
+        "4K UHD"
+      ]
+    }
+  ]
+}
