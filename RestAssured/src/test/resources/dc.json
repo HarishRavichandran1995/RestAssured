@@ -1,0 +1,50 @@
+{
+  "squadName": "Justice League",
+  "homeTown": "DC",
+  "formed": 1934,
+  "secretBase": "Batcave",
+  "active": true,
+  "members": [
+    {
+      "name": "Bruce Wayne",
+      "age": 35,
+      "secretIdentity": "Batman",
+      "powers": [
+        "Super rich",
+        "Genius",
+        "Batmobile"
+      ]
+    },
+    {
+      "name": "Diana",
+      "age": 300,
+      "secretIdentity": "Wonder Woman",
+      "powers": [
+        "The Lasso of Truth",
+        "Immortal",
+        "Super strength"
+      ]
+    },
+    {
+      "name": "Clark Kent",
+      "age": 35,
+      "secretIdentity": "Superman",
+      "powers": [
+        "Super strength",
+        "Flight",
+        "X-ray vision",
+        "Heat vision"
+      ]
+    },
+    {
+      "name": "Barry Allen",
+      "age": 28,
+      "secretIdentity": "Flash",
+      "powers": [
+        "Super speed",
+        "Time travel",
+        "Fast healing"
+      ]
+    }
+  ]
+}

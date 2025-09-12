@@ -14,21 +14,19 @@ public class MatchesJsonSchema {
 	
 	@Test
 	public void testMatchesJsonSchema() throws FileNotFoundException {
-		File file = new File("src/test/resources/readJson.json");
-		FileReader inputStream = new FileReader(file); 
-		RestAssured
-		.given()
-		.baseUri("http://localhost:3000")
-		.header("Content-Type", "application/json")
-		.body(file)
-		.log()
-		.all()
-		.when()
-		.post("/employees")
-		.then()
-		.log()
-		.all()
-		.body(JsonSchemaValidator.matchesJsonSchema(inputStream));
-	}
+	    File requestBody = new File("src/test/resources/readJson.json");
+	    File schemaFile = new File("src/test/resources/schema.json");
 
+	    RestAssured
+	        .given()
+	            .baseUri("http://localhost:3000")
+	            .header("Content-Type", "application/json")
+	            .body(requestBody)
+	            .log().all()
+	        .when()
+	            .post("/employees")
+	        .then()
+	            .log().all()
+	            .body(JsonSchemaValidator.matchesJsonSchema(schemaFile));
+	}
 }

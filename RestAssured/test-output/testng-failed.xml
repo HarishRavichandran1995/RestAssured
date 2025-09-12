@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="A2_JSONSCHEMA.RestAssuredJsonSchemaValidation">
+      <class name="A2_JSONSCHEMA.Hamcrest">
         <methods>
-          <include name="ValidationUsingJsonSchemaInClassPath"/>
+          <include name="hamcrestExample"/>
         </methods>
-      </class> <!-- A2_JSONSCHEMA.RestAssuredJsonSchemaValidation -->
+      </class> <!-- A2_JSONSCHEMA.Hamcrest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
