@@ -1,0 +1,9 @@
+xpath	Json path		Meaning
+
+/		$				To indicate the root element
+/		. or [''] [] ['']	To indicate the child
+.		@				to indicate the current element
+*		*				Wildcard. All elements
+//		..				deep scan / recursive descent
+na		[start:end]		to slice the array
+[] 		Expression	[?(<expression>)]	Filter expression. The result of this should be a boolean one (for json path)

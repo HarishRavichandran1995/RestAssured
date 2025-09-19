@@ -8,7 +8,7 @@ import com.fasterxml.jackson.databind.DatabindException;
 import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-public class usingObjectMapper {
+public class C08_UsingObjectMapper {
 
 	 String jsonString = "{\r\n"
 			+ "  \"first_name\" : \"Harish\",\r\n"
@@ -27,7 +27,7 @@ public class usingObjectMapper {
 	}
 	public static void main(String[] args) throws JsonMappingException, JsonProcessingException {
 		// TODO Auto-generated method stub
-	 usingObjectMapper objectName = new usingObjectMapper();
+	 C08_UsingObjectMapper objectName = new C08_UsingObjectMapper();
 	 objectName.objectMapperDeserilization();
 	}
 }

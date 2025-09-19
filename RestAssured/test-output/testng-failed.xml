@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="A2_JSONSCHEMA.Hamcrest">
+      <class name="non_bdd_style.B4_JsonSimpleDependency">
         <methods>
-          <include name="hamcrestExample"/>
+          <include name="serilization"/>
         </methods>
-      </class> <!-- A2_JSONSCHEMA.Hamcrest -->
+      </class> <!-- non_bdd_style.B4_JsonSimpleDependency -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

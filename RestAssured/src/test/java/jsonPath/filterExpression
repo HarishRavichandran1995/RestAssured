@@ -1,0 +1,64 @@
+Rest Assured | 26 | Json Path | Why do we need filter expressions | தமிழ்
+Get members older than 100 years
+
+$.members[?(@.age > 100)]
+
+
+👉 Result:
+
+[
+  {
+    "name": "Diana",
+    "age": 300,
+    "secretIdentity": "Wonder Woman",
+    "powers": ["The Lasso of Truth", "Immortal", "Super strength"]
+  }
+]
+
+
+Get names of members younger than 40 years
+
+$.members[?(@.age < 40)].name
+
+
+👉 Result:
+["Bruce Wayne", "Clark Kent", "Barry Allen"]
+
+Get members whose secretIdentity is Batman
+
+$.members[?(@.secretIdentity == 'Batman')]
+
+
+👉 Result: Batman’s full object.
+
+Get powers of Wonder Woman
+
+$.members[?(@.secretIdentity == 'Wonder Woman')].powers
+
+
+👉 Result:
+["The Lasso of Truth", "Immortal", "Super strength"]
+
+Get members whose secretIdentity ends with “man” (case-insensitive)
+
+$.members[?(@.secretIdentity =~ /.*man$/i)].secretIdentity
+
+
+👉 Result:
+["Batman", "Wonder Woman", "Superman"]
+
+Get members who have more than 3 powers
+
+$.members[?(@.powers.size() > 3)].name
+
+
+👉 Result:
+["Clark Kent"]
+
+Get members whose name starts with 'B'
+
+$.members[?(@.name =~ /^B/)].name
+
+
+👉 Result:
+["Bruce Wayne", "Barry Allen"]
