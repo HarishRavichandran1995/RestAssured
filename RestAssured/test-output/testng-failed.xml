@@ -3,14 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="C07_RequestSpecification.MultipleRequestSpecification">
+      <class name="C08_Auth.APIKeyAuth">
         <methods>
-          <include name="getEmployeesBDD"/>
-          <include name="postEmployeeBDD_Two"/>
-          <include name="getEmployeeBDD_one"/>
-          <include name="setRequestSpecification"/>
+          <include name="apiKeyAuthUsingParams"/>
         </methods>
-      </class> <!-- C07_RequestSpecification.MultipleRequestSpecification -->
+      </class> <!-- C08_Auth.APIKeyAuth -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

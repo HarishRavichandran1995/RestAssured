@@ -15,7 +15,8 @@ public class RequestSpecBuilderEx {
 		builder.setBasePath("employees");
 		RequestSpecification requestSpecification = builder.build();
 		
-		//builder.setBaseUri("http://localhost:3000/").setBaseUri("http://localhost:3000/").setContentType(ContentType.JSON);
+		//RequestSpecification requestSpecification2 = builder.setBaseUri("http://localhost:3000/")
+		//.setBaseUri("http://localhost:3000/").setContentType(ContentType.JSON).build();
 		
 		RestAssured
 		.given()
