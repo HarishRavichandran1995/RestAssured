@@ -3,11 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="non_bdd_style.B4_JsonSimpleDependency">
+      <class name="C07_RequestSpecification.MultipleRequestSpecification">
         <methods>
-          <include name="serilization"/>
+          <include name="getEmployeesBDD"/>
+          <include name="postEmployeeBDD_Two"/>
+          <include name="getEmployeeBDD_one"/>
+          <include name="setRequestSpecification"/>
         </methods>
-      </class> <!-- non_bdd_style.B4_JsonSimpleDependency -->
+      </class> <!-- C07_RequestSpecification.MultipleRequestSpecification -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
